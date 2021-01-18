@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	.container {
+    	display: flex;
+        background-color: #add8e6;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+    }
+    .container > div {
+    	padding: 16px;
+        background: black;
+        color: white;
+        margin: 2px;
+    }
+    /* .container div.right{
+        margin-left: auto;
+    } */
+</style>
+</head>
+<body>
+
+	<div class="container">
+    	<div style="order: 4;flex-grow: 1;">items 1</div>
+        <div style="order: 2;flex-grow: 1;">items 2</div>
+        <div  style="order: 3;flex-grow: 1;">items 3</div>
+        <div class="right" style="order: 1;flex-grow: 8;">items 4</div>
+    </div>
+
+</body>
+</html>
